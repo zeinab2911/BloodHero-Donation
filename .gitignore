@@ -1,0 +1,60 @@
+# BloodHero .gitignore file
+
+# Configuration files with sensitive data
+config/twilio_config.php
+config/database.php
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Cache files
+cache/
+*.cache
+
+# Session files
+sessions/
+
+# Upload directories (if any)
+uploads/
+temp/
+
+# Database files
+*.sql
+*.db
+
+# Test files
+test-*.php
+debug-*.php 
