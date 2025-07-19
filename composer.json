@@ -1,0 +1,19 @@
+{
+    "name": "bloodhero/sms-service",
+    "description": "BloodHero SMS Service with Twilio Integration",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "twilio/sdk": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BloodHero\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+} 
